@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        billAmountTextField.becomeFirstResponder()
     }
 
     @IBAction func calculateTip(_ sender: Any) {
@@ -80,8 +81,6 @@ class ViewController: UIViewController {
             overrideUserInterfaceStyle = .light
         }
     }
-    @IBAction func tapAmount(_ sender: Any) {
-        billAmountTextField.becomeFirstResponder()
-    }
+
 }
 

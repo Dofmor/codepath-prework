@@ -37,7 +37,6 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="changedBillAmount:" destination="BYZ-38-t0r" eventType="editingChanged" id="yJ9-Ij-gn6"/>
-                                    <action selector="tapAmount:" destination="BYZ-38-t0r" eventType="touchDown" id="hdV-jz-U4o"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STf-2B-P3a" userLabel="Total">
